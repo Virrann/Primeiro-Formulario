@@ -39,12 +39,66 @@
                     <input type="radio" name="genero" value="female"> Feminino
                 </label>
                 <label>
-                    <input type="radio" name="genero" value="outro"> Outro/Prefere não declarar
+                    <input type="radio" name="genero" value="outro" checked> Outro/Prefere não declarar
                 </label>
             </div>
+
+            <div>
+                <label>Tempo de mercado</label>
+                <select id="tempo-mercado">
+                    <option selected disabled value=""></option>
+                    <option>Nunca trabalhou na área</option>
+                    <option>até 1 ano</option>
+                    <option>1-5 anos</option>
+                    <option>mais de 5 anos</option>
+                </select>
+            </div>
+            <fieldset>
+                <div>
+                    <label>Selecione suas certificações</label>
+                    <br><br>
+                    <input type="checkbox" name="C1" id="C1" value="CPA10">
+                    <label for="C1">CPA10</labelfor>
+                    <input type="checkbox" name="C2" id="C2" value="CPA20">
+                    <label for="C1">CPA20</labelfor>
+                    <input type="checkbox" name="C3" id="C3" value="CEA">
+                    <label for="C1">CEA</labelfor>
+                    <input type="checkbox" name="C4" id="C4" value="CNPI">
+                    <label for="C1">CNPI</labelfor>
+                    <input type="checkbox" name="C5" id="C5" value="CNPIT">
+                    <label for="C1">CNPI-T</labelfor>
+                    <input type="checkbox" name="C6" id="C6" value="CNPIP">
+                    <label for="C1">CNPI-P</labelfor>
+                    <input type="checkbox" name="C7" id="C7" value="AAI">
+                    <label for="C1">AAI</labelfor>
+                    <input type="checkbox" name="C8" id="C8" value="PQO">
+                    <label for="C1">PQO</labelfor>
+                    <input type="checkbox" name="C9" id="C9" value="CFG">
+                    <label for="C1">CFG</labelfor>
+                    <input type="checkbox" name="C10" id="C10" value="CGE">
+                    <label for="C1">CGE</labelfor>
+                    <input type="checkbox" name="C11" id="C11" value="CGA">
+                    <label for="C1">CGA</labelfor>
+                    <input type="checkbox" name="C12" id="C12" value="CFP">
+                    <label for="C1">CFP</labelfor>
+                    <input type="checkbox" name="C13" id="C13" value="CFA">
+                    <label for="C1">CFA</labelfor>
+                </div>
+            </fieldset>
+
+            <div>
+                <br>
+                <label>Conte um pouco sobre sua experiência:</label>
+                <textarea row="6" style="width: 50em;" name="experiencia" id="experiencia"></textarea>
+            </div>
+
+            <button type="submit">Enviar</button>
+
         </form>
 
     </div>
-    
+    <footer>
+        Isso é só um teste/exemplo :)
+    </footer>
 </body>
 </html>
